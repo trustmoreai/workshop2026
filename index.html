@@ -68,12 +68,12 @@
 <nav class="hidden items-center gap-6 text-sm font-medium text-slate-700 md:flex">
 <a class="transition hover:text-sky-700" href="#about">About</a>
 <a class="transition hover:text-sky-700" href="#topics">Topics</a>
-<a class="transition hover:text-sky-700" href="#why-submit">Why submit</a>
 <a class="transition hover:text-sky-700" href="#schedule">Schedule</a>
 <a class="transition hover:text-sky-700" href="#submissions">Submission</a>
 <a class="transition hover:text-sky-700" href="#organizers">Organizers</a>
 <a class="transition hover:text-sky-700" href="#committee">Committee</a>
 <a class="transition hover:text-sky-700" href="#deployment">Deployment</a>
+<a class="transition hover:text-sky-700" href="#cfp">Call for Papers</a>
 <a class="transition hover:text-sky-700" href="#contact">Contact</a>
 </nav>
 </div>
@@ -114,9 +114,8 @@
 <div class="mt-4 h-1 w-20 rounded-full bg-sky-500"></div>
 </div>
 <div class="space-y-5 rounded-3xl border border-slate-200 bg-white p-7 shadow-sm text-base leading-8 text-slate-700">
-<p>Modern multimodal AI agents are rapidly moving from research prototypes to production systems. These agents increasingly support high-impact applications in healthcare, finance, legal services, cybersecurity, scientific discovery, and government. However, deployment in regulated and safety-critical environments demands far more than benchmark performance. Production AI systems must operate reliably at scale while satisfying stringent requirements for robustness, auditability, explainability, privacy, observability, and regulatory compliance.</p>
-<p>TRUSTMORE 2026 brings together researchers, practitioners, and industry leaders working on the systems, infrastructure, evaluation methodologies, and engineering practices that enable trustworthy AI deployment. We welcome contributions spanning deployed applications, engineering innovations, evaluation frameworks, benchmarks, datasets, and operational experiences that advance multimodal AI agents from research prototypes to production-ready systems.</p>
-<p>The workshop places particular emphasis on real-world deployments, scalable infrastructure, practical engineering challenges, and lessons learned from production environments. We especially encourage submissions from both academia and industry that bridge advances in AI research with the realities of deploying multimodal agents safely, reliably, and at scale.</p>
+<p>Deploying multimodal AI agents in regulated industries is fundamentally different from achieving strong benchmark performance. Systems that perform well in controlled evaluations often struggle with scale, heterogeneity, latency constraints, and production complexity.</p>
+<p>TRUSTMORE brings together researchers, practitioners, and industry leaders to address robustness, explainability, auditability, privacy preservation, scalability, observability, and regulatory compliance. The goal is to bridge cutting-edge AI research with production-ready systems that can be trusted in real-world deployment.</p>
 </div>
 </div>
 </section>
@@ -125,7 +124,6 @@
 <p class="text-sm font-semibold uppercase tracking-[0.3em] text-sky-700">Research topics</p>
 <h2 class="mt-3 text-3xl font-semibold text-slate-950 sm:text-4xl">Three core themes</h2>
 <div class="mt-4 h-1 w-20 rounded-full bg-sky-500"></div>
-<p class="mt-6 max-w-3xl text-base leading-8 text-slate-700">We invite original research papers, system papers, demos, benchmarks, datasets, and work-in-progress submissions addressing the challenges of building and deploying trustworthy multimodal agents in real-world environments. We are particularly interested in work that demonstrates practical impact, addresses production-scale challenges, and bridges advances in AI research with the realities of deployment.</p>
 <div class="mt-10 grid gap-6 lg:grid-cols-3">
 <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
 <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-sky-100 text-sky-700"><svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="m12 2 8 4.5v11L12 22l-8-4.5v-11L12 2Z"></path><path d="M12 22V12M20 6.5 12 12 4 6.5"></path></svg></div>
@@ -133,10 +131,7 @@
 <ul class="mt-5 space-y-3 text-sm leading-7 text-slate-700">
 <li>• End-to-end deployed agentic systems</li>
 <li>• Multi-agent coordination and autonomous reasoning</li>
-<li>• Practical applications in regulated domains</li>
 <li>• Latency-aware and resource-constrained deployment</li>
-<li>• Production architectures and deployment case studies</li>
-<li>• Human-agent collaboration</li>
 </ul>
 </article>
 <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
@@ -146,10 +141,7 @@
 <li>• Retrieval, grounding, and knowledge integration</li>
 <li>• Observability and outlier detection</li>
 <li>• Error detection and failure recovery mechanisms</li>
-<li>• Robust orchestration and agent infrastructure</li>
-<li>• Safety mechanisms for autonomous agents</li>
 <li>• Auditability, compliance, and governance infrastructure</li>
-<li>• Security, privacy, and resilience</li>
 </ul>
 </article>
 <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
@@ -158,28 +150,10 @@
 <ul class="mt-5 space-y-3 text-sm leading-7 text-slate-700">
 <li>• Production-oriented and domain-specific benchmarks</li>
 <li>• Safety and reliability evaluation protocols</li>
-<li>• Long-context and multimodal evaluation</li>
-<li>• Continuous evaluation of deployed agents</li>
 <li>• Adversarial evaluation: red teaming, jailbreaks, and formal audits</li>
-<li>• Formal auditing and objective evaluation</li>
-<li>• Dataset quality and reproducibility</li>
 </ul>
 </article>
 </div>
-</div>
-</section>
-<section class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20" id="why-submit">
-<p class="text-sm font-semibold uppercase tracking-[0.3em] text-sky-700">Why submit</p>
-<h2 class="mt-3 text-3xl font-semibold text-slate-950 sm:text-4xl">A dedicated venue for trustworthy AI deployment</h2>
-<div class="mt-4 h-1 w-20 rounded-full bg-sky-500"></div>
-<p class="mt-6 max-w-3xl text-base leading-8 text-slate-700">TRUSTMORE 2026 provides a dedicated venue for addressing the practical challenges of deploying trustworthy multimodal AI systems in real-world environments. We particularly encourage submissions describing deployed systems, engineering innovations, infrastructure, benchmarks, datasets, evaluation methodologies, operational experiences, and interdisciplinary collaborations. Work describing practical challenges, negative results, failure analyses, and lessons learned from deploying AI systems is also strongly encouraged.</p>
-<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-<div class="rounded-2xl border border-slate-200 bg-white p-5 text-sm font-medium text-slate-800 shadow-sm">Invited keynote speakers from academia and industry</div>
-<div class="rounded-2xl border border-slate-200 bg-white p-5 text-sm font-medium text-slate-800 shadow-sm">Technical paper presentations</div>
-<div class="rounded-2xl border border-slate-200 bg-white p-5 text-sm font-medium text-slate-800 shadow-sm">System demonstrations and posters</div>
-<div class="rounded-2xl border border-slate-200 bg-white p-5 text-sm font-medium text-slate-800 shadow-sm">Lightning talks</div>
-<div class="rounded-2xl border border-slate-200 bg-white p-5 text-sm font-medium text-slate-800 shadow-sm">Panel discussions on trustworthy AI deployment</div>
-<div class="rounded-2xl border border-slate-200 bg-white p-5 text-sm font-medium text-slate-800 shadow-sm">Networking between researchers and practitioners</div>
 </div>
 </section>
 <section class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20" id="schedule">
@@ -296,7 +270,6 @@
 <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4"><div class="font-semibold text-slate-900">Short papers / Work-in-progress</div><div class="mt-1 text-sm text-slate-600">4–6 pages including references</div></div>
 <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4"><div class="font-semibold text-slate-900">Demo / System papers</div><div class="mt-1 text-sm text-slate-600">4–6 pages including references</div></div>
 </div>
-<p class="mt-4 text-sm leading-7 text-slate-700">Submissions should follow the IEEE BigData 2026 template and present original work that has not been published elsewhere or simultaneously submitted to another venue, consistent with IEEE publication policies.</p>
 <div class="mt-6 rounded-2xl bg-sky-50 p-5 ring-1 ring-sky-100">
 <h4 class="text-lg font-semibold text-slate-900">Required author submission steps</h4>
 <ol class="mt-4 list-decimal space-y-3 pl-5 text-sm leading-7 text-slate-700">
@@ -309,11 +282,6 @@
 <li>Verify successful submission in OpenReview and retain the automated confirmation.</li>
 </ol>
 </div>
-</div>
-<div class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
-<p class="text-sm font-semibold uppercase tracking-[0.3em] text-sky-700">Publication</p>
-<h3 class="mt-3 text-2xl font-semibold text-slate-950">A formal venue for practical work</h3>
-<p class="mt-3 text-sm leading-7 text-slate-700">A key goal of TRUSTMORE 2026 is to provide authors with a formal publication venue for practical and impactful work on trustworthy multimodal agents. All papers accepted for the workshop will be included in the Workshop Proceedings published by the IEEE Computer Society Press, made available at the conference. This provides an opportunity for both academic researchers and industry practitioners to share research findings, production experiences, system designs, benchmarks, and lessons learned with the broader AI community.</p>
 </div>
 </div>
 </div>
@@ -422,16 +390,189 @@
 <div class="mt-4 h-1 w-20 rounded-full bg-sky-500"></div>
 <div class="mt-10 grid gap-6 lg:grid-cols-2 xl:grid-cols-4">
 <article class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"><h3 class="text-xl font-semibold text-slate-900">Submission platform</h3><p class="mt-3 text-sm leading-7 text-slate-700">Papers will be submitted through <a class="font-medium text-sky-700" href="https://openreview.net/group?id=IEEE.org/BigData/2026/Workshop/TRUSTMORE#tab-recent-activity" rel="noopener noreferrer" target="_blank">OpenReview</a> under a double-blind review process.</p></article>
-<article class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"><h3 class="text-xl font-semibold text-slate-900">Reviewing</h3><p class="mt-3 text-sm leading-7 text-slate-700">All submissions undergo double-blind peer review, evaluated on technical quality, originality, significance, practical impact, relevance to trustworthy multimodal agents, and clarity/reproducibility. Authors are encouraged to include anonymous supplementary material, code, or datasets. The review process is expected to take approximately 1–1.5 months; the submission deadline may be extended if needed to support a strong program.</p></article>
+<article class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"><h3 class="text-xl font-semibold text-slate-900">Reviewing</h3><p class="mt-3 text-sm leading-7 text-slate-700">Each submission will receive at least two reviews from program committee members with relevant expertise and will be evaluated on technical quality, novelty, and contribution to the field.</p></article>
 <article class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"><h3 class="text-xl font-semibold text-slate-900">Accessibility</h3><p class="mt-3 text-sm leading-7 text-slate-700">The workshop will be recorded and made available through the website and YouTube. Remote participation will be fully supported.</p></article>
 <article class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"><h3 class="text-xl font-semibold text-slate-900">Sponsorship</h3><p class="mt-3 text-sm leading-7 text-slate-700">Companies interested in this space have expressed interest in sponsoring travel support for keynote speakers and other presenters.</p></article>
 </div>
 </section>
-<section class="mx-auto max-w-7xl px-4 pb-14 sm:px-6 lg:px-8 lg:pb-20">
-<div class="rounded-3xl border border-sky-200 bg-sky-50 p-8 sm:p-10">
-<p class="text-sm font-semibold uppercase tracking-[0.3em] text-sky-700">Join us</p>
-<p class="mt-4 max-w-3xl text-base leading-8 text-slate-800">As multimodal AI agents become increasingly capable and autonomous, ensuring that these systems are reliable, scalable, safe, and accountable in real-world environments has become a central challenge for the AI community. TRUSTMORE 2026 aims to bring together researchers and practitioners working at the intersection of AI, systems, infrastructure, safety, evaluation, and real-world deployment.</p>
-<p class="mt-4 max-w-3xl text-base leading-8 text-slate-800">We particularly welcome contributions that move beyond benchmark performance to address the challenges that arise when AI agents are deployed in production: unexpected failures, monitoring, evaluation, governance, scalability, security, human oversight, and the need to continuously establish trust in increasingly autonomous systems. We look forward to your submissions and to building a community around trustworthy, production-ready multimodal agents.</p>
+<section class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20" id="cfp">
+<p class="text-sm font-semibold uppercase tracking-[0.3em] text-sky-700">Call for Papers</p>
+<h2 class="mt-3 text-3xl font-semibold text-slate-950 sm:text-4xl">TRUSTMORE 2026</h2>
+<p class="mt-2 text-xl font-semibold text-slate-900">The 1st International Workshop on Trustworthy Multimodal Agents</p>
+<p class="mt-1 text-lg text-sky-800">Scalable, Safe, and Auditable Systems for Real-World AI Deployments</p>
+<p class="mt-1 text-sm font-medium text-slate-600">Co-located with IEEE BigData 2026</p>
+<div class="mt-4 h-1 w-20 rounded-full bg-sky-500"></div>
+<div class="mt-8 space-y-12 rounded-3xl border border-slate-200 bg-white p-7 sm:p-10 shadow-sm">
+
+<div class="mt-12 first:mt-0">
+<h3 class="text-2xl font-semibold text-slate-900">Overview</h3>
+<p class="mt-3 text-sm leading-7 text-slate-700">Modern multimodal AI agents are rapidly moving from research prototypes to production systems. These agents increasingly support high-impact applications in healthcare, finance, legal services, cybersecurity, scientific discovery, and government. However, deployment in regulated and safety-critical environments demands far more than benchmark performance. Production AI systems must operate reliably at scale while satisfying stringent requirements for robustness, auditability, explainability, privacy, observability, and regulatory compliance.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">TRUSTMORE 2026 brings together researchers, practitioners, and industry leaders working on the systems, infrastructure, evaluation methodologies, and engineering practices that enable trustworthy AI deployment. We welcome contributions spanning deployed applications, engineering innovations, evaluation frameworks, benchmarks, datasets, and operational experiences that advance multimodal AI agents from research prototypes to production-ready systems.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">The workshop places particular emphasis on real-world deployments, scalable infrastructure, practical engineering challenges, and lessons learned from production environments. We especially encourage submissions from both academia and industry that bridge advances in AI research with the realities of deploying multimodal agents safely, reliably, and at scale.</p>
+</div>
+
+<div class="mt-12 first:mt-0">
+<h3 class="text-2xl font-semibold text-slate-900">Topics of Interest</h3>
+<p class="mt-3 text-sm leading-7 text-slate-700">We invite original research papers, system papers, demos, benchmarks, datasets, and work-in-progress submissions addressing the challenges of building and deploying trustworthy multimodal agents in real-world environments. We are particularly interested in work that demonstrates practical impact, addresses production-scale challenges, and bridges advances in AI research with the realities of deployment.</p>
+
+<h4 class="mt-6 text-lg font-semibold text-slate-900">1. Demos of Deployed Systems and Practical Applications</h4>
+<p class="mt-3 text-sm leading-7 text-slate-700">This theme focuses on AI systems that operate at scale in production today, emphasizing real-world performance and practical experience over benchmark novelty. We seek end-to-end system papers and live demonstrations that provide insights practitioners can learn from and adopt.</p>
+<ul class="mt-3 space-y-2 list-disc pl-5 text-sm leading-7 text-slate-700">
+<li><strong>End-to-End Deployed Agentic Systems:</strong> Full-system architectures covering the lifecycle of multimodal production applications, from data ingestion and agent orchestration to monitoring and iterative improvement.</li>
+<li><strong>Multi-Agent Coordination and Autonomous Reasoning:</strong> Coordination architectures for agents collaborating across tools, memory, and reasoning steps, including production failure modes and orchestration strategies.</li>
+<li><strong>Practical Applications in Regulated Domains:</strong> Multimodal agent deployments in healthcare, finance, legal services, cybersecurity, government, and other high-impact or regulated domains.</li>
+<li><strong>Latency-Aware and Resource-Constrained Deployment:</strong> Techniques for meeting constraints on latency, compute, cost, and availability while maintaining reliability, safety, and compliance.</li>
+<li><strong>Production Architectures and Deployment Case Studies:</strong> Engineering approaches, system designs, operational lessons, and failure analyses from real-world deployments.</li>
+<li><strong>Human-Agent Collaboration:</strong> Human-in-the-loop systems, human oversight, escalation mechanisms, and approaches for effectively integrating autonomous agents into existing workflows.</li>
+</ul>
+
+<h4 class="mt-6 text-lg font-semibold text-slate-900">2. Trustworthy Infrastructure &amp; Methods</h4>
+<p class="mt-3 text-sm leading-7 text-slate-700">This theme focuses on the engineering foundations that make trustworthiness operational at production scale. We welcome work addressing the infrastructure, methods, and runtime mechanisms required to build reliable, observable, auditable, and safe multimodal agent systems.</p>
+<ul class="mt-3 space-y-2 list-disc pl-5 text-sm leading-7 text-slate-700">
+<li><strong>Retrieval, Grounding, and Knowledge Integration:</strong> Methods and architectures for efficient retrieval, grounding, and knowledge integration to improve the reliability of multimodal agents, including long-context settings.</li>
+<li><strong>Observability and Outlier Detection:</strong> Monitoring, logging, runtime diagnostics, and techniques for detecting anomalous or unexpected agent behavior.</li>
+<li><strong>Error Detection and Failure Recovery:</strong> Methods for identifying, preventing, containing, and recovering from errors and failures in multimodal agent systems.</li>
+<li><strong>Robust Orchestration and Agent Infrastructure:</strong> Scalable orchestration frameworks and architectures for reliable multi-agent and tool-using systems.</li>
+<li><strong>Safety Mechanisms for Autonomous Agents:</strong> Runtime safeguards, guardrails, intervention mechanisms, and other approaches for managing risks associated with increasingly autonomous systems.</li>
+<li><strong>Auditability, Compliance, and Governance:</strong> Infrastructure and methods supporting traceability, explainability, auditability, regulatory compliance, and responsible deployment.</li>
+<li><strong>Security, Privacy, and Resilience:</strong> Secure deployment, access control, privacy-preserving methods, fault tolerance, and resilience for production AI systems.</li>
+</ul>
+
+<h4 class="mt-6 text-lg font-semibold text-slate-900">3. Benchmarks, Datasets &amp; Objective Evaluation</h4>
+<p class="mt-3 text-sm leading-7 text-slate-700">Trustworthy multimodal agents require evaluation infrastructure that goes beyond static accuracy benchmarks. This theme seeks contributions that develop auditable, domain-grounded benchmarks and evaluation methodologies capable of identifying and quantifying failure modes that emerge in real-world deployment.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">We are particularly interested in work that treats benchmark construction as a data engineering problem, where dataset sourcing, annotation, provenance, versioning, validation, and coverage are as important as the metrics themselves.</p>
+<ul class="mt-3 space-y-2 list-disc pl-5 text-sm leading-7 text-slate-700">
+<li><strong>Production-Oriented and Domain-Specific Benchmarks:</strong> Benchmarks designed around real-world tasks and deployment conditions, with attention to dataset provenance, edge-case coverage, and reproducibility across institutional settings.</li>
+<li><strong>Safety and Reliability Evaluation:</strong> Evaluation protocols for assessing robustness, calibration, uncertainty, selective abstention, output consistency, and other behavioral properties of multimodal agents.</li>
+<li><strong>Long-Context and Multimodal Evaluation:</strong> Methods for evaluating agent behavior across long-running interactions, complex multimodal inputs, and realistic production workloads.</li>
+<li><strong>Continuous Evaluation:</strong> Evaluation pipelines and methodologies that support ongoing assessment of deployed agents as models, data, tools, and environments evolve.</li>
+<li><strong>Adversarial Evaluation, Red Teaming, and Jailbreaks:</strong> Systematic methodologies for discovering vulnerabilities, policy violations, unexpected behaviors, and failure modes that standard benchmarks may not capture.</li>
+<li><strong>Formal Auditing and Objective Evaluation:</strong> Formal or systematic approaches for auditing agent behavior, including evaluation of goal misgeneralization, specification gaming, and other undesirable behaviors.</li>
+<li><strong>Dataset Quality and Reproducibility:</strong> Methods for ensuring annotation reliability, label consistency, dataset quality, provenance, and reproducibility of evaluation results.</li>
+</ul>
+</div>
+
+<div class="mt-12 first:mt-0">
+<h3 class="text-2xl font-semibold text-slate-900">Submission Types</h3>
+<p class="mt-3 text-sm leading-7 text-slate-700">We welcome the following submission categories:</p>
+<div class="mt-4 overflow-hidden rounded-2xl border border-slate-200">
+<table class="w-full text-left text-sm text-slate-700">
+<thead class="bg-slate-50 text-xs font-semibold uppercase tracking-wide text-slate-500"><tr><th class="px-4 py-3">Category</th><th class="px-4 py-3">Length</th></tr></thead>
+<tbody class="divide-y divide-slate-200">
+<tr><td class="px-4 py-3">Full Research Papers</td><td class="px-4 py-3">8–9 pages</td></tr>
+<tr><td class="px-4 py-3">Short / Work-in-Progress Papers</td><td class="px-4 py-3">4–6 pages</td></tr>
+<tr><td class="px-4 py-3">System &amp; Demo Papers</td><td class="px-4 py-3">4–6 pages</td></tr>
+</tbody>
+</table>
+</div>
+<p class="mt-3 text-sm leading-7 text-slate-700">Submissions should follow the IEEE BigData 2026 template.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">Submissions should present original work that has not been published elsewhere or simultaneously submitted to another venue, consistent with IEEE publication policies.</p>
+</div>
+
+<div class="mt-12 first:mt-0">
+<h3 class="text-2xl font-semibold text-slate-900">Publication</h3>
+<p class="mt-3 text-sm leading-7 text-slate-700">A key goal of TRUSTMORE 2026 is to provide authors with a formal publication venue for practical and impactful work on trustworthy multimodal agents.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">All papers accepted for workshops will be included in the Workshop Proceedings published by the IEEE Computer Society Press, made available at the Conference.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">This provides an opportunity for both academic researchers and industry practitioners to share research findings, production experiences, system designs, benchmarks, and lessons learned with the broader AI community.</p>
+</div>
+
+<div class="mt-12 first:mt-0">
+<h3 class="text-2xl font-semibold text-slate-900">Why Submit?</h3>
+<p class="mt-3 text-sm leading-7 text-slate-700">TRUSTMORE 2026 provides a dedicated venue for addressing the practical challenges of deploying trustworthy multimodal AI systems in real-world environments.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">The workshop will feature:</p>
+<ul class="mt-3 space-y-2 list-disc pl-5 text-sm leading-7 text-slate-700">
+<li>Invited keynote speakers from academia and industry</li>
+<li>Technical paper presentations</li>
+<li>System demonstrations and posters</li>
+<li>Lightning talks</li>
+<li>Panel discussions on trustworthy AI deployment</li>
+<li>Networking opportunities between researchers and practitioners</li>
+<li>Opportunities to connect academic research with real-world production challenges</li>
+</ul>
+<p class="mt-3 text-sm leading-7 text-slate-700">We particularly encourage submissions describing deployed systems, engineering innovations, infrastructure, benchmarks, datasets, evaluation methodologies, operational experiences, and interdisciplinary collaborations.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">Work describing practical challenges, negative results, failure analyses, and lessons learned from deploying AI systems is also strongly encouraged.</p>
+</div>
+
+<div class="mt-12 first:mt-0">
+<h3 class="text-2xl font-semibold text-slate-900">Review Process</h3>
+<p class="mt-3 text-sm leading-7 text-slate-700">All submissions will undergo double-blind peer review.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">Each submission will be evaluated based on:</p>
+<ul class="mt-3 space-y-2 list-disc pl-5 text-sm leading-7 text-slate-700">
+<li>Technical quality</li>
+<li>Originality</li>
+<li>Significance</li>
+<li>Practical impact</li>
+<li>Relevance to trustworthy multimodal agents</li>
+<li>Clarity and reproducibility</li>
+</ul>
+<p class="mt-3 text-sm leading-7 text-slate-700">Authors are encouraged to include anonymous supplementary material, code, datasets, or other resources where appropriate.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">The organizers anticipate approximately 1–1.5 months for the review process. The submission deadline may be extended if additional submissions are needed to support a strong workshop program.</p>
+</div>
+
+<div class="mt-12 first:mt-0">
+<h3 class="text-2xl font-semibold text-slate-900">Important Dates</h3>
+<div class="mt-4 overflow-hidden rounded-2xl border border-slate-200">
+<table class="w-full text-left text-sm text-slate-700">
+<thead class="bg-slate-50 text-xs font-semibold uppercase tracking-wide text-slate-500"><tr><th class="px-4 py-3">Event</th><th class="px-4 py-3">Date</th></tr></thead>
+<tbody class="divide-y divide-slate-200">
+<tr><td class="px-4 py-3">Paper Submission Deadline</td><td class="px-4 py-3">October 4, 2026 (AoE)</td></tr>
+<tr><td class="px-4 py-3">Reviews Due</td><td class="px-4 py-3">October 18, 2026</td></tr>
+<tr><td class="px-4 py-3">Author Notification</td><td class="px-4 py-3">October 21, 2026</td></tr>
+<tr><td class="px-4 py-3">Camera-Ready Deadline</td><td class="px-4 py-3">End of October</td></tr>
+<tr><td class="px-4 py-3">Workshop</td><td class="px-4 py-3">TBD, anticipated December 14–17, 2026</td></tr>
+</tbody>
+</table>
+</div>
+<p class="mt-3 text-sm leading-7 text-slate-700">All deadlines are Anywhere on Earth (AoE) unless otherwise specified.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">The workshop is co-located with IEEE BigData 2026, which is scheduled for December 14–17, 2026. The exact date of the TRUSTMORE workshop will be announced once finalized.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">The timeline is designed to provide accepted authors with sufficient time to make travel and visa arrangements before the conference.</p>
+</div>
+
+<div class="mt-12 first:mt-0">
+<h3 class="text-2xl font-semibold text-slate-900">Workshop Format</h3>
+<p class="mt-3 text-sm leading-7 text-slate-700">TRUSTMORE 2026 is planned as a full-day workshop and will include:</p>
+<ul class="mt-3 space-y-2 list-disc pl-5 text-sm leading-7 text-slate-700">
+<li>Invited keynote talks</li>
+<li>Oral paper presentations</li>
+<li>Poster and demo sessions</li>
+<li>Lightning talks</li>
+<li>Panel discussions</li>
+<li>Interactive discussions between researchers and practitioners</li>
+<li>Hybrid participation, with both in-person and remote participation</li>
+</ul>
+<p class="mt-3 text-sm leading-7 text-slate-700">The workshop is expected to take place during the December 14–17, 2026 IEEE BigData conference period. The specific workshop date will be announced once confirmed.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">Accepted presentations and workshop materials may be made available online following the event.</p>
+</div>
+
+<div class="mt-12 first:mt-0">
+<h3 class="text-2xl font-semibold text-slate-900">Organizers</h3>
+<ul class="mt-3 space-y-2 list-disc pl-5 text-sm leading-7 text-slate-700">
+<li>Manas Gaur, University of Maryland, Baltimore County (UMBC)</li>
+<li>Manas Paldhe, Infinitus Systems</li>
+<li>Nikita Mishra, Amazon</li>
+<li>Youngseo Son, Infinitus Systems</li>
+</ul>
+</div>
+
+<div class="mt-12 first:mt-0">
+<h3 class="text-2xl font-semibold text-slate-900">Submission Portal</h3>
+<p class="mt-3 text-sm leading-7 text-slate-700">Submissions will be handled through OpenReview:</p>
+<p class="mt-3 text-sm leading-7 text-slate-700"><a class="font-medium text-sky-700" href="https://openreview.net/group?id=IEEE.org/BigData/2026/Workshop/TRUSTMORE#tab-recent-activity" rel="noopener noreferrer" target="_blank">TRUSTMORE 2026 OpenReview Submission Portal</a></p>
+</div>
+
+<div class="mt-12 first:mt-0">
+<h3 class="text-2xl font-semibold text-slate-900">Workshop Website</h3>
+<p class="mt-3 text-sm leading-7 text-slate-700">Coming soon</p>
+</div>
+
+<div class="mt-12 first:mt-0">
+<h3 class="text-2xl font-semibold text-slate-900">Join Us</h3>
+<p class="mt-3 text-sm leading-7 text-slate-700">As multimodal AI agents become increasingly capable and autonomous, ensuring that these systems are reliable, scalable, safe, and accountable in real-world environments has become a central challenge for the AI community.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">TRUSTMORE 2026 aims to bring together researchers and practitioners working at the intersection of AI, systems, infrastructure, safety, evaluation, and real-world deployment.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">We particularly welcome contributions that move beyond benchmark performance to address the challenges that arise when AI agents are deployed in production: unexpected failures, monitoring, evaluation, governance, scalability, security, human oversight, and the need to continuously establish trust in increasingly autonomous systems.</p>
+<p class="mt-3 text-sm leading-7 text-slate-700">We look forward to your submissions and to building a community around trustworthy, production-ready multimodal agents.</p>
+</div>
+
 </div>
 </section>
 </main>
@@ -464,7 +605,6 @@
 <li>Manas Paldhe: <a class="font-medium text-sky-700" href="mailto:manaspaldhe12@gmail.com">manaspaldhe12@gmail.com</a></li>
 <li>Manas Gaur: <a class="font-medium text-sky-700" href="mailto:manas@umbc.edu">manas@umbc.edu</a></li>
 <li>Submission portal: <a class="font-medium text-sky-700" href="https://openreview.net/group?id=IEEE.org/BigData/2026/Workshop/TRUSTMORE#tab-recent-activity" rel="noopener noreferrer" target="_blank">TRUSTMORE on OpenReview</a></li>
-<li>Workshop website: Coming soon</li>
 <li>Format: Hybrid</li>
 <li>Co-located with IEEE Big Data 2026</li>
 <li>Final dates and venue information will be announced on the workshop website.</li>
